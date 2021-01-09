@@ -1,0 +1,86 @@
+body {
+    background-color:#90C5EA;
+}
+
+.body {
+    display: block;
+    background-color: #5C5E60;
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 29px black;
+    border-radius: 20px;
+}
+
+.screen {
+    display: grid;
+    margin: 25px;
+    height: 120px;
+    grid-template-columns: 100%;
+}
+.screen input {
+    padding-right: 25px;
+    color: #5C5E60;
+    text-align: right;
+    font-size: 64px;
+    border: none;
+    background-color: #ECECEC;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.buttons1 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 25px;
+    margin-left: 35px; 
+    margin-bottom: 25px;
+}
+
+.buttons1 button {
+    font-size: 24px;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px #999;
+}
+
+.buttons1 button:active{
+    box-shadow: 0 2px #999;
+    transform: translateY(4px);   
+}
+
+.buttons2 {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-right: 35px;
+}
+
+.buttons2 button {
+    font-size: 24px;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px #999;
+}
+
+.buttons2 button:active{
+    box-shadow: 0 2px #999;
+    transform: translateY(4px);   
+}
